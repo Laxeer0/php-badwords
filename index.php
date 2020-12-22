@@ -8,3 +8,4 @@ $msgOutput = str_replace($badword,"***",$paragraph);
 
 
 echo $msgOutput;
+echo "Il paragrafo è lungo" . strlen($paragraph)." caratteri";
